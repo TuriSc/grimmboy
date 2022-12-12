@@ -60,4 +60,4 @@ Place the numbered mp3s in the root of the SD card, and copy the two mp3 files p
 
 The name is a reference to the [Brothers Grimm](https://en.wikipedia.org/wiki/Brothers_Grimm).
 
-Project notes and more info at [turiscandurra.com/circuits](https://turiscandurra.com/circuits)
+wProject notes and more info at [turiscandurra.com/circuits](https://turiscandurra.com/circuits)
