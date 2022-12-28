@@ -6,7 +6,7 @@
 A kids' audio player using an mp3 player chip controlled by an Arduino Nano that's also listening to an RFID reader to trigger the playback of specific tracks.
 The controls are limited to one pause/unpause button and a volume knob. There's also a status LED.
 
-The whole setup is powered by a lithium-ion battery, recharged and protected by a TP4050 battery charger module through a common USB-C smartphone charger.
+The whole setup is powered by a lithium-ion battery, recharged and protected by a TP4056 battery charger module through a common USB-C smartphone charger.
 
 This work is inspired by the open source project [Tonuino]([https://tonuino.de/), compared to which my player has fewer functions but is easier to set up, is battery-powered, and uses a custom data format for the tags so they can be configured using a smartphone.
 
@@ -16,8 +16,8 @@ This work is inspired by the open source project [Tonuino]([https://tonuino.de/)
 - MFRC522 RFID module
 - Ntag213 tags
 - microSD card
-- TP4050 battery charger module
-- 18650 or compatible li-po battery
+- TP4056 battery charger module
+- 18650 or equivalent lithium battery
 - 1K linear potentiometer
 - 1K resistor
 - 8Ω speaker
@@ -60,4 +60,4 @@ Place the numbered mp3s in the root of the SD card, and copy the two mp3 files p
 
 The name is a reference to the [Brothers Grimm](https://en.wikipedia.org/wiki/Brothers_Grimm).
 
-wProject notes and more info at [turiscandurra.com/circuits](https://turiscandurra.com/circuits)
+Project notes and more info at [turiscandurra.com/circuits](https://turiscandurra.com/circuits)
